@@ -3,9 +3,9 @@ import { motion } from 'framer-motion';
 import { useAuth } from '@/lib/auth-context';
 import { Navigate } from 'react-router-dom';
 import { Layers, Mail, Loader2 } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Label } from '@/components/ui/label';
+import { Button } from '@/components/ui-shared/button';
+import { Input } from '@/components/ui-shared/input';
+import { Label } from '@/components/ui-shared/label';
 import { toast } from 'sonner';
 
 export function AuthPage() {

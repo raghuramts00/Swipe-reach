@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { KeyRound, Plus, Settings2, Trash2 } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Label } from '@/components/ui/label';
-import { Badge } from '@/components/ui/badge';
+import { Button } from '@/components/ui-shared/button';
+import { Input } from '@/components/ui-shared/input';
+import { Label } from '@/components/ui-shared/label';
+import { Badge } from '@/components/ui-shared/badge';
 
 const MOCK_PROVIDERS = [
   { id: '1', name: 'OpenAI', modelName: 'gpt-4o', isDefault: true, connected: true },

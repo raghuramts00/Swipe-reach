@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { FileCode2, Plus, ArrowRight, MoreVertical } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { Badge } from '@/components/ui/badge';
-import { ScrollArea } from '@/components/ui/scroll-area';
+import { Button } from '@/components/ui-shared/button';
+import { Badge } from '@/components/ui-shared/badge';
+import { ScrollArea } from '@/components/ui-shared/scroll-area';
 
 const MOCK_SKILLS = [
   { id: '1', name: 'alex_hormozi.md', description: 'Direct, offer-focused, highly persuasive cold email framework.', usages: 1420 },

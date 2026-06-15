@@ -1,10 +1,10 @@
 import { useState, useRef } from 'react';
 import { motion, useAnimation, useMotionValue, useTransform, PanInfo } from 'framer-motion';
 import { Heart, X, RotateCcw, Bookmark, ChevronLeft, ChevronRight } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import { Badge } from '@/components/ui/badge';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { ScrollArea } from '@/components/ui/scroll-area';
+import { Button } from '@/components/ui-shared/button';
+import { Badge } from '@/components/ui-shared/badge';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui-shared/tabs';
+import { ScrollArea } from '@/components/ui-shared/scroll-area';
 import { toast } from 'sonner';
 
 // Mock Data

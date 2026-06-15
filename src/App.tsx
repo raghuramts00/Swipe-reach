@@ -6,14 +6,14 @@
 import { ReactNode } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider, useAuth } from '@/lib/auth-context';
-import { BaseLayout } from '@/components/layout/BaseLayout';
+import { BaseLayout } from '@/components/layout-components/BaseLayout';
 import { AuthPage } from '@/pages/AuthPage';
 import { Dashboard } from '@/pages/DashboardPage';
 import { SwipeSpace } from '@/pages/SwipeSpace';
 import { LeadsPage } from '@/pages/LeadsPage';
 import { SkillsPage } from '@/pages/SkillsPage';
 import { ProvidersPage } from '@/pages/ProvidersPage';
-import { Toaster } from '@/components/ui/sonner';
+import { Toaster } from '@/components/ui-shared/sonner';
 
 import { SettingsPage } from '@/pages/SettingsPage';
 
